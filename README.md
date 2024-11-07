@@ -1,10 +1,4 @@
-Here's a detailed `README.md` file for your GitHub repository, with instructions on how to set up, run, and understand the `Health-Vision` project.
-
----
-
 # Health-Vision
-
-![Health Vision Banner](https://user-images.githubusercontent.com/your-image-path/banner.png)
 
 **Health-Vision** is a medical image classification web application that uses deep learning models to classify medical images and provide diagnostic insights. The application is built using Flask for the backend, TensorFlow for model handling, and OpenCV for image processing.
 
@@ -161,7 +155,3 @@ This project is licensed under the MIT License.
 
 ### Note
 **Health-Vision** is intended for educational and research purposes only. It should not be used as a replacement for professional medical advice or diagnostics.
-
---- 
-
-This README provides a comprehensive guide for setting up, running, and using the Health-Vision application. It includes clear instructions, troubleshooting tips, and details about the project’s architecture and usage.
