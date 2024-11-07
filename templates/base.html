@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Image Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header with overlay -->
+    <header class="header">
+        <div class="header-overlay">
+            <h1>Medical Image Classification</h1>
+            <p>Analyze and classify medical images with AI-driven insights.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Medical Image Classifier</p>
+            <p>Built with <span class="tech">Flask</span>, <span class="tech">TensorFlow</span>, and <span class="tech">OpenCV</span>.</p>
+            <p>This app is for educational purposes only and not intended for clinical use.</p>
+        </div>
+    </footer>
+</body>
+</html>
