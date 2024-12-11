@@ -70,7 +70,7 @@ To set up the project locally, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Narla-Venkata-Anand-Sai-Kumar/Health-Vision.git
+git clone https://github.com/karthikbolla/Health-Vision.git
 cd Health-Vision
 ```
 
