@@ -8,11 +8,24 @@
         <input type="file" name="file" accept="image/*" required>
         <button type="submit">Classify Image</button>
     </form>
-    
+
+    {% if uploaded_image_url %}
+    <div class="image-container">
+        <h3>Uploaded Image</h3>
+        <img src="{{ uploaded_image_url }}" alt="Uploaded Medical Image" class="uploaded-image">
+    </div>
+    {% endif %}
+
     {% if prediction %}
     <div class="result-container">
         <h3>Prediction Result</h3>
         <p>{{ prediction }}</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="error-message">
+        <p>{{ error }}</p>
     </div>
     {% endif %}
 </div>

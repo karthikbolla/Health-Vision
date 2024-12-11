@@ -191,3 +191,34 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+.image-container {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.image-container h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 12px rgba(31, 38, 135, 0.37);
+}
+
+/* Error Message Styling */
+.error-message {
+    margin-top: 20px;
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #ff0000;
+    font-size: 0.95rem;
+}
